@@ -13,6 +13,10 @@ body{
     margin: 0;
 }
 
+::-webkit-scrollbar {       /* todo - para ocultar a barra de rolagem */
+    display: none;
+}
+
 h1,h2,h3,h4,h5,h6{
     font-family: 'Space Mono', monospace;
 }
@@ -31,38 +35,85 @@ a{
 header{
     background: url("../imagens/churra.jpg") fixed no-repeat;
     /*  */
-    display: table;     /* TODO - solução para alinhamento. */
+    display: table;     /* todo - solução para alinhamento (1). */
 }
 
-div#header{     /* Conteúdo de header. */
+div#header-overlay{
+    background: rgba(7, 16, 19, 0.6);
+}
+
+div#header-conteuhdo{          /* Conteúdo de header. */
     color: #fff;
     text-align: center;
     /*  */
-    min-height: max-content;
     height: 100vh;
     width: 100vw;
-    overflow: auto;
-    background: rgba(7, 16, 19, 0.6);
+    padding: 0 20% 0 20%;
     /*  */
-    vertical-align: middle;        /* todo - solução para alinhamento. */
+    vertical-align: middle;        /* todo - solução para alinhamento (2). */
     display: table-cell;
 }
     header h1{
+        text-shadow: 0.07em 0.07em 0.07em #071013;
         font-size: 7em;
-        margin: 0 0 2em 0;
+        margin: 5vw 0 13vw 0;
     }
 
     header h2{
+        text-shadow: 0.05em 0.05em 0.05em #071013;
         text-transform: uppercase;
-        line-height: 3.6em;
+        line-height: 2.1em;
         font-size: 1.9em;
         font-weight: 600;
         /*  */
-        margin: 0 0 0.1em 0;
+        margin: 0 0 5vw 0;
     }
 
-/* )~()~()~()~()~()~()~()~()~()~( HEADER )~()~()~()~()~()~()~()~()~()~()~( */
+/* )~()~()~()~()~()~()~()~()~()~( NAV )~()~()~()~()~()~()~()~()~()~()~( */
 
+nav{
+    line-height: 10vh;
+    /*  */
+    position: absolute;
+    top: 20vh;
+    right: 2vw;
+}
+
+    nav:hover span{
+        visibility: visible;
+    }
+
+nav div{
+    background-color: hsl(195, 46%, 15%);
+    padding: 1rem;
+    border-radius: 1rem;
+    /*  */
+    float:right;
+    position: relative;
+    bottom: 6.8vh;
+}
+
+    a:hover div{
+        background-color: #F4442E;
+    }
+
+    
+
+nav span{
+    color: #fff;
+    text-shadow: 0.1em 0.1em #071013;
+    text-align: right;
+    font-weight: 200;
+    /*  */
+    margin-right: 2.8em;
+    /*  */
+    display: block;
+    visibility: hidden;
+}
+
+    a:hover span{
+        font-size: 1.2em;
+    }
 
 /*
     CONTEÚDO 
@@ -83,12 +134,38 @@ div#header{     /* Conteúdo de header. */
     POSIÇÃO
 
     Display
-    Position
-    Top, Right, Bottom, Left
     Float
     Clear
+    Position
+    Top, Right, Bottom, Left
+
 
     OUTRAS/ESPECIFICAS
     
     Propriedades exclusiva do elemento ou que não relacionam a divisões anteriores. Ordenar em ordem alfabética
 */
+
+ul{
+    color: #071013;
+    list-style: inside;
+    font-size: 8em;
+    line-height: 5rem;
+    direction: rtl; unicode-bidi: bidi-override;    /* Inverter a ordem dos marcos de lista */
+    background: orchid;
+} 
+
+    li::marker{
+        color: #F4442E;
+        margin-left: -1000px;
+    } 
+
+span.asd{
+    /* display: none; */
+    color: #fff;
+    font-size: 2rem;
+    vertical-align: middle;
+}
+
+    li:hover span{
+        display: inline;
+    }
