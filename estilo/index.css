@@ -30,6 +30,8 @@ a{
 
 header{
     background: url("../imagens/churra.jpg") fixed no-repeat;
+    /*  */
+    display: table;     /* TODO - solução para alinhamento. */
 }
 
 div#header{     /* Conteúdo de header. */
@@ -38,8 +40,12 @@ div#header{     /* Conteúdo de header. */
     /*  */
     min-height: max-content;
     height: 100vh;
+    width: 100vw;
     overflow: auto;
     background: rgba(7, 16, 19, 0.6);
+    /*  */
+    vertical-align: middle;        /* todo - solução para alinhamento. */
+    display: table-cell;
 }
     header h1{
         font-size: 7em;
@@ -49,11 +55,14 @@ div#header{     /* Conteúdo de header. */
     header h2{
         text-transform: uppercase;
         line-height: 3.6em;
-        font-size: 1.8em;
+        font-size: 1.9em;
         font-weight: 600;
         /*  */
-        margin: 0;
+        margin: 0 0 0.1em 0;
     }
+
+/* )~()~()~()~()~()~()~()~()~()~( HEADER )~()~()~()~()~()~()~()~()~()~()~( */
+
 
 /*
     CONTEÚDO 
