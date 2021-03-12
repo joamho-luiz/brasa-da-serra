@@ -69,6 +69,39 @@ div#header-conteuhdo{          /* Conteúdo de header. */
         margin: 0 0 5vw 0;
     }
 
+div#ihcone{
+    box-sizing: border-box;
+    background-image: radial-gradient(circle, hsl(195, 46%, 15%), hsla(195, 46%, 15%, 0.3));
+    border-radius: 500vmax;
+    /*  */
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    /*  */
+    display: table;     /* todo - solução para alinhamento (1). */
+}
+
+div#ihcone div{
+    text-shadow:  0.1em 0.1em 0.2em #071013;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-family: 'Space Mono', monospace;
+    font-size: 3.5em;
+    font-weight: 900;
+    /*  */
+    box-sizing: border-box;
+    width: 2em;
+    height: 2em;
+    padding-left: 0.1em;
+    /*  */
+    vertical-align: middle;        /* todo - solução para alinhamento (2). */
+    display: table-cell;
+}
+
+    div#ihcone div:hover{
+        color:  #F4442E;
+    }
+
 /* )~()~()~()~()~()~()~()~()~()~( NAV )~()~()~()~()~()~()~()~()~()~()~( */
 
 nav{
@@ -96,8 +129,6 @@ nav div{
     a:hover div{
         background-color: #F4442E;
     }
-
-    
 
 nav span{
     color: #fff;
@@ -144,28 +175,3 @@ nav span{
     
     Propriedades exclusiva do elemento ou que não relacionam a divisões anteriores. Ordenar em ordem alfabética
 */
-
-ul{
-    color: #071013;
-    list-style: inside;
-    font-size: 8em;
-    line-height: 5rem;
-    direction: rtl; unicode-bidi: bidi-override;    /* Inverter a ordem dos marcos de lista */
-    background: orchid;
-} 
-
-    li::marker{
-        color: #F4442E;
-        margin-left: -1000px;
-    } 
-
-span.asd{
-    /* display: none; */
-    color: #fff;
-    font-size: 2rem;
-    vertical-align: middle;
-}
-
-    li:hover span{
-        display: inline;
-    }
