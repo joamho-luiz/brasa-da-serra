@@ -146,6 +146,46 @@ nav span{
         font-size: 1.2em;
     }
 
+/* )~()~()~()~()~()~()~()~()~()~( SECTION # FUNCIONAMENTO )~()~()~()~()~()~()~()~()~()~()~( */
+
+section#funcionamento{
+    background-color: red;
+}
+
+section#funcionamento h2{
+    margin: 0;
+}
+
+div#boas-vindas{
+    background-color: blue;
+    height: 55vh;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 7vh;
+}
+
+div#cidade{
+    background-color: green;
+    box-sizing: border-box;
+    width: 50vw;
+    height: 55vh;
+    float: left;
+    padding-left: 20%;
+    padding-right: 5%;
+}
+
+div#horahrio{
+    background-color: yellow;
+    box-sizing: border-box;
+    width: 50vw;
+    height: 55vh;
+    float: right;
+    padding-left: 5%;
+    padding-right: 20%;
+}
+
+
+
 /*
     CONTEÚDO 
 
