@@ -149,42 +149,73 @@ nav span{
 /* )~()~()~()~()~()~()~()~()~()~( SECTION # FUNCIONAMENTO )~()~()~()~()~()~()~()~()~()~()~( */
 
 section#funcionamento{
-    background-color: red;
+    text-align: center;
+    /*  */
+    height: 85vh;
+    background-image: url(../imagens/folha-fundo.jpg);
+    background-position: 0px 55%;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-attachment: scroll;
 }
 
-section#funcionamento h2{
-    margin: 0;
+div#funcionamento-overlay{
+    height: 85vh;
+    background-color: hsla(42, 100%, 65%, 0.6);
 }
 
 div#boas-vindas{
-    background-color: blue;
-    height: 55vh;
-    padding-left: 20%;
-    padding-right: 20%;
+    height: 40vh;
+    padding-left: 22%;
+    padding-right: 22%;
     padding-top: 7vh;
 }
 
+    div#boas-vindas h2{
+        color: #F4442E;
+        text-shadow: 0.05em 0.05em 0.5em #F4442E;
+        font-size: 3em;
+        font-weight: bolder;
+        /*  */
+        margin: 0 auto 1em auto;
+    }
+
+    div#boas-vindas h3{
+        font-style: italic;
+    }
+
+    div#boas-vindas p{
+        line-height: 2em;
+        /*  */
+        padding-left: 18%;
+        padding-right: 18%;
+    }
+
 div#cidade{
-    background-color: green;
     box-sizing: border-box;
     width: 50vw;
-    height: 55vh;
+    height: 40vh;
     float: left;
-    padding-left: 20%;
-    padding-right: 5%;
+    padding-left: 22%;
+    padding-right: 3.5%;
 }
 
-div#horahrio{
-    background-color: yellow;
-    box-sizing: border-box;
-    width: 50vw;
-    height: 55vh;
+/* div#horahrio{
+    background-image: url(../imagens/mesa.3.gif);
+    background-repeat: no-repeat;
+    background-size: 40vmin 30vmin;
     float: right;
-    padding-left: 5%;
-    padding-right: 20%;
 }
 
+    div#horahrio div{
+        color: white;
+        box-sizing: border-box;
+        width: 40vmin;
+        height: 30vh;
+        background-color: red;
 
+        padding-top: 19vh;
+    } */
 
 /*
     CONTEÚDO 
