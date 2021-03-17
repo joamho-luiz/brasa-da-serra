@@ -148,27 +148,25 @@ nav span{
 
 /* )~()~()~()~()~()~()~()~()~()~( SECTION # FUNCIONAMENTO )~()~()~()~()~()~()~()~()~()~()~( */
 
-section#funcionamento{
+section#funcionamento{  /* A imagem */
     text-align: center;
     /*  */
-    height: 85vh;
+    height: 90vh;
+    background-attachment: scroll;
     background-image: url(../imagens/folha-fundo.jpg);
     background-position: 0px 55%;
     background-repeat: no-repeat;
     background-size: 100vw;
-    background-attachment: scroll;
 }
 
-div#funcionamento-overlay{
-    height: 85vh;
-    background-color: hsla(42, 100%, 65%, 0.6);
-}
+    div#funcionamento-overlay{      /* A cor */
+        background-color: hsla(42, 100%, 65%, 0.6);
+    }
 
 div#boas-vindas{
-    height: 40vh;
-    padding-left: 22%;
-    padding-right: 22%;
     padding-top: 7vh;
+    padding-right: 22%;
+    padding-left: 22%;
 }
 
     div#boas-vindas h2{
@@ -185,6 +183,7 @@ div#boas-vindas{
     }
 
     div#boas-vindas p{
+        font-weight: 500;
         line-height: 2em;
         /*  */
         padding-left: 18%;
@@ -192,39 +191,72 @@ div#boas-vindas{
     }
 
 div#cidade{
-    box-sizing: border-box;
-    width: 50vw;
-    height: 40vh;
+    height: 25vw;
+    width: 28vw;
+    margin-top: 2vw;
+    margin-left: 20%;
+    /*  */
+    display: table;     /* todo - solução para alinhamento (1). */
     float: left;
-    padding-left: 22%;
-    padding-right: 3.5%;
 }
 
-/* div#horahrio{
+    div#funcionamento-cidade{
+        line-height: 2vw;
+        font-weight: 500;
+        /*  */
+        overflow: auto;
+        /*  */
+        display: table-cell;         /* todo - solução para alinhamento (2). */
+        vertical-align: middle;       
+    }
+
+div#horahrio{
+    height: 25vw;
+    width: 25vw;
     background-image: url(../imagens/mesa.3.gif);
     background-repeat: no-repeat;
-    background-size: 40vmin 30vmin;
+    background-size: cover;
+    margin-top: 3vw;
+    margin-right: 20%;
+    /*  */
     float: right;
 }
 
-    div#horahrio div{
+    div#horahrio p{
         color: white;
-        box-sizing: border-box;
-        width: 40vmin;
-        height: 30vh;
-        background-color: red;
+        font-size: 1.6vw;
+        /*  */
+        height: 32%;
+        width: 100%;
+        background-color:rgba(7, 16, 19, 0.4);
+        padding-top: 17vw;
+        margin: 0;
+    }
 
-        padding-top: 19vh;
-    } */
+    div#horahrio span{
+        font-weight: 800;
+        /*  */
+        margin-top: 1vw;
+        /*  */
+        display: block;
+    }
+
+div#funcionamento-estilo{
+    padding-bottom: 31vw;
+    /*  */
+    visibility: hidden;
+}
+
+/* )~()~()~()~()~()~()~()~()~()~( SECTION # PRECCOS )~()~()~()~()~()~()~()~()~()~()~( */
 
 /*
-    CONTEÚDO 
+    >>> CONTEÚDO 
 
     Texto (Cor, Sombreamento, Riscos , Alinhamento, Espaçamento, Transformações)
     Fonte (Família, Tamanho, Peso, Estilo)
     Mais propriedades relacionadas ao conteúdo (Em ordem alfabética.)
 
-    CAIXA
+    >>> CAIXA
 
     Width e Height (Overflow)
     Background
@@ -233,16 +265,15 @@ div#cidade{
     Outline
     Margin
 
-    POSIÇÃO
+    >>> POSIÇÃO
 
     Display
     Float
     Clear
     Position
-    Top, Right, Bottom, Left
+    Top, Right, Bottom, Lef 
 
-
-    OUTRAS/ESPECIFICAS
+    >>> OUTRAS/ESPECIFICAS
     
     Propriedades exclusiva do elemento ou que não relacionam a divisões anteriores. Ordenar em ordem alfabética
-*/
+ */
