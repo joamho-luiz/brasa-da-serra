@@ -1,0 +1,99 @@
+section#funcionamento{  /* A imagem */
+    text-align: center;
+    /*  */
+    background-attachment: scroll;
+    background-image: url(../../imagens/folha-fundo.jpg);
+    background-position: 0px 55%;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+    div#funcionamento-overlay{      /* A cor */
+        background-color: hsla(42, 100%, 65%, 0.6);
+    }
+
+div#boas-vindas{
+    padding-top: 7vh;
+    padding-right: 22%;
+    padding-left: 22%;
+}
+
+    div#boas-vindas h2{
+        color: #F58B2F ;
+        /* text-shadow: 0.05em 0.05em 0.5em #F4442E; */
+        font-size: 3em;
+        font-weight: bolder;
+        /*  */
+        margin: 0 auto 1em auto;
+    }
+
+    div#boas-vindas h3{
+        font-style: italic;
+    }
+
+    div#boas-vindas p{
+        font-weight: 500;
+        line-height: 2em;
+        /*  */
+        padding-left: 18%;
+        padding-right: 18%;
+    }
+
+div#cidade{
+    height: 18vw;
+    width: 28vw;
+    margin-top: 2vw;
+    margin-left: 20%;
+    /*  */
+    display: table;     /* todo - solução para alinhamento (1). */
+    float: left;
+}
+
+    div#funcionamento-cidade{
+        line-height: 2vw;
+        font-weight: 500;
+        /*  */
+        overflow: auto;
+        /*  */
+        display: table-cell;         /* todo - solução para alinhamento (2). */
+        vertical-align: middle;       
+    }
+
+div#horahrio{
+    height: 18vw;
+    width: 25vw;
+    background-image: url(../../imagens/mesa.3.gif);
+    background-repeat: no-repeat;
+    background-size: 25vw 35vh;
+    background-position: 0vw -0.3vw;
+    margin-top: 3vw;
+    margin-right: 20%;
+    
+    /*  */
+    float: right;
+}
+
+    div#horahrio p{
+        color: white;
+        font-size: 1.6vw;
+        /*  */
+        height: 5%;
+        width: 100%;
+        background-color:rgba(7, 16, 19, 0.4);
+        padding-top: 12.5vw;
+        margin: 0;
+    }
+
+    div#horahrio span{
+        font-weight: 800;
+        /*  */
+        margin-top: 1vw;
+        /*  */
+        display: block;
+    }
+
+div#funcionamento-estilo{
+    padding-bottom: 24vw;
+    /*  */
+    visibility: hidden;
+}

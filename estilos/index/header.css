@@ -1,0 +1,69 @@
+header{
+    background: url("../../imagens/churra.jpg") fixed no-repeat;
+    /*  */
+    display: table;     /* todo - solução para alinhamento (1). */
+}
+
+div#header-overlay{
+    background: rgba(7, 16, 19, 0.6);
+}
+
+div#header-conteuhdo{          /* Conteúdo de header. */
+    color: #fff;
+    text-align: center;
+    /*  */
+    height: 100vh;
+    width: 100vw;
+    padding: 0 20% 0 20%;
+    /*  */
+    vertical-align: middle;        /* todo - solução para alinhamento (2). */
+    display: table-cell;
+}
+    header h1{
+        text-shadow: 0.07em 0.07em 0.07em #071013;
+        font-size: 7em;
+        margin: 5vw 0 13vw 0;
+    }
+
+    header h2{
+        text-shadow: 0.05em 0.05em 0.05em #071013;
+        text-transform: uppercase;
+        line-height: 2.1em;
+        font-size: 1.9em;
+        font-weight: 600;
+        /*  */
+        margin: 0 0 5vw 0;
+    }
+
+div#ihcone{
+    box-sizing: border-box;
+    background-image: radial-gradient(circle, hsla(42, 100%, 65%, 1), hsla(42, 100%, 65%, 0.7));
+    border-radius: 500vmax;
+    /*  */
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    /*  */
+    display: table;     /* todo - solução para alinhamento (1). */
+}
+
+div#ihcone div{
+    text-shadow:  0.1em 0.1em 0.2em #071013;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-family: 'Space Mono', monospace;
+    font-size: 3.5em;
+    font-weight: 900;
+    /*  */
+    box-sizing: border-box;
+    width: 2em;
+    height: 2em;
+    padding-left: 0.1em;
+    /*  */
+    vertical-align: middle;        /* todo - solução para alinhamento (2). */
+    display: table-cell;
+}
+
+    div#ihcone div:hover{
+        color:  #F4442E;
+    }

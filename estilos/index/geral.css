@@ -1,0 +1,52 @@
+/* 10/03/21 Urubici */
+/* Dicas de leituras no fim do documento. */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Work+Sans&display=swap');    /* SPACE MONO - para título. WORK SANS - para o corpo. */
+
+body{
+    color: #071013c7;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 100%;
+    /*  */
+    margin: 0;
+}
+
+::-webkit-scrollbar {       /* todo - para ocultar a barra de rolagem */
+    display: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Space Mono', monospace;
+}
+
+a{
+    color: #F58B2F;
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+    font-weight: 800;
+}
+
+/*
+    >>> CONTEÚDO 
+        Texto (Cor, Sombreamento, Riscos , Alinhamento, Espaçamento, Transformações)
+        Fonte (Família, Tamanho, Peso, Estilo)
+        Mais propriedades relacionadas ao conteúdo (Em ordem alfabética.)
+
+    >>> CAIXA
+        Width e Height (Overflow)
+        Background
+        Padding
+        Border
+        Outline
+        Margin
+
+    >>> POSIÇÃO
+        Display
+        Float
+        Clear
+        Position
+        Top, Right, Bottom, Lef 
+
+    >>> OUTRAS/ESPECIFICAS
+        Propriedades exclusiva do elemento ou que não relacionam a divisões anteriores. Ordenar em ordem alfabética
+ */

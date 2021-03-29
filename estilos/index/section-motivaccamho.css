@@ -1,0 +1,79 @@
+section#motivaccamho{       /* Seção */
+    width: 60vw;
+    margin: 10% 20% 10% 20%;
+}
+
+div#motivaccamho-blc-a{     /* Parte Superior */
+    display: table;     /* todo - solução para alinhamento (1). */
+}
+
+div#motivaccamho-blc1, div#motivaccamho-blc2, div#motivaccamho-blc3, div#motivaccamho-blc4{     /* Divisão do conteúdo em quatro */
+    /* outline: yellow solid; */
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    display: inline-block;
+}
+    div#motivaccamho-blc1{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    div#motivaccamho-blc2{
+        width: 100%;
+    }
+    div#motivaccamho-blc3{
+        float: left;
+    }
+    div#motivaccamho-blc4{
+        float: right;
+    }
+
+section#motivaccamho h3{        /* Títulos */
+    text-shadow: 0.01em 0.01em 1em #FFC84A;
+    font-style: italic;
+    margin: 2em auto;
+}
+    section#motivaccamho h3#julia::before,
+    section#motivaccamho h3#carlos::before,
+    section#motivaccamho h3#bianca::before{ 
+        content: "";
+        /*  */
+        box-sizing: border-box;
+        height: 3em;
+        width: 3em;
+        background-size: 3em 3em;
+        background-repeat: no-repeat;
+        background-position: 0 0.7em;
+        padding: 1.5em 2.2em 2.3em 1.5em;
+        /*  */
+        display: inline;
+    }
+        section#motivaccamho h3#julia::before{
+            background-image: url(../../imagens/julia.png);
+        }
+        section#motivaccamho h3#carlos::before{ 
+            background-image: url(../../imagens/carlos.png);
+        }
+        section#motivaccamho h3#bianca::before{ 
+            background-image: url(../../imagens/bianca.png);
+        }
+
+section#motivaccamho h2{        /* Título da section.  */
+    color: #FFC84A;
+    text-align: center;
+    font-size: 3em;
+}   
+
+section#motivaccamho p{         /* Conteúdo dos depoimentos. */
+    text-align: center;
+    color: #07101399;
+    font-style: italic;   
+    line-height: 2em;
+}    
+
+div#motivaccamho-blc1 p{        /* Texto inicial. */
+    font-style: normal;
+}

@@ -1,0 +1,41 @@
+nav{
+    line-height: 10vh;
+    /*  */
+    position: absolute;
+    top: 20vh;
+    right: 2vw;
+}
+
+    nav:hover span{
+        visibility: visible;
+    }
+
+nav div{
+    background-color: /* hsl(195, 46%, 15%) */ hsl(42, 100%, 65%);
+    padding: 1rem;
+    border-radius: 1rem;
+    /*  */
+    float:right;
+    position: relative;
+    bottom: 6.8vh;
+}
+
+    a:hover div{
+        background-color: #F4442E;
+    }
+
+nav span{
+    color: #fff;
+    text-shadow: 0.1em 0.1em #071013;
+    text-align: right;
+    font-weight: 200;
+    /*  */
+    margin-right: 2.8em;
+    /*  */
+    display: block;
+    visibility: hidden;
+}
+
+    a:hover span{
+        font-size: 1.2em;
+    }
