@@ -65,5 +65,6 @@ div#ihcone div{
 }
 
     div#ihcone div:hover{
-        color:  #F4442E;
+        color: hsl(7, 80%, 57%);
+        text-shadow:  0.1em 0.1em 0.2em #F4442E;
     }

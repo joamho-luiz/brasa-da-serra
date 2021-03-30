@@ -14,7 +14,10 @@
     <link rel="stylesheet" href="estilos/index/section-preccos.css">
     <link rel="stylesheet" href="estilos/index/section-motivaccamho.css">
     <link rel="stylesheet" href="estilos/index/footer.css">    
-    <link rel="alternate icon"  type="images/png" href="imagens/icone2.png.gif"> <!-- !Editar imagem -->
+
+    <link rel="alternate icon"  type="images/png" href="imagens/icone2.png.gif"> <!-- !Editar imagem --> 
+
+    <script src="https://kit.fontawesome.com/a8326b1a93.js" crossorigin="anonymous"></script>      <!-- Para usar ícones -->
 </head>
 
 <body>
@@ -151,29 +154,42 @@
     </section>
 
     <footer>
-        <!-- !colocar ícone -->
-
-        <div>            
-            <div>
-                <p>Como chegar:</p>
-                <div>
-                    <!-- !foto do mapa com link para mapa em contato -->
-                </div>
+        <div id="footer-superior">            
+            <div id="footer-s-esquerda">
+                <p id="footer-mapa-texto">
+                    <i class="fas fa-map-marked-alt"></i>
+                    Venha conhecer:
+                </p>
+                <a id="footer-mapa" href="#"></a>
             </div>
           
-            <div>
-                Entre em contato:
-                <!-- !ícones -->
-                <p>(49) 3278 - 4X59</p>
-                <p>WhatsApp</p>
-                <p>FaceBook</p>
-                <p>Instagram</p>
-                <p><a href="#">Pelo site</a></p>    <!-- Link para formulário em contato. -->
+            <div id="footer-s-direita">
+                <p id="footer-contato">Entre em contato conosco:</p>
+                <p>
+                    <i class="fas fa-phone-square"></i>
+                    <a href="#">(49) 3278 - 4X59</a>
+                </p>
+                <p>
+                    <i class="fab fa-whatsapp-square"></i>
+                    <a href="#">WhatsApp</a>
+                </p>
+                <p>
+                    <i class="fab fa-facebook-square"></i>
+                    <a href="#">FaceBook</a>
+                </p>
+                <p>
+                    <i class="fab fa-instagram-square"></i>
+                    <a href="#">Instagram</a>
+                </p>
+                <p>
+                    <i class="fas fa-keyboard fa-vw"></i>
+                    <a href="#">Pelo site</a>
+                </p>    <!-- Link para formulário em contato. -->
             </div>
-
-            <div>
-                <p>Brasa da Serra | criado por WebPinha.com</p>
-            </div>
+        </div>
+        
+        <div id="footer-inferior">
+            <div>Brasa da Serra | criado por WebPinha.com</div>
         </div>
     </footer>
 </body>

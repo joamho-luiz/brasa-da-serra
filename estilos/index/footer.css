@@ -1,0 +1,70 @@
+footer{
+    background-color: hsla(195, 46%, 5%, 0.8);
+    display: inline-block;
+    width: 100vw;
+    margin-top: 8vh;
+    padding-top: 4vh;
+}
+    footer *{
+        color: white;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: lighter;
+    }
+
+footer a#footer-mapa{
+    background-image: url(../../imagens/mapa.gif);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6em 5.8em;
+    margin-right: 4vw;
+    /*  */
+    display: inline-block;
+}
+
+i{
+    color: #FFC84A;
+    vertical-align: middle;
+    font-size: 1.8em;
+    /*  */
+    margin:auto 0.4em auto 5vw;
+}
+
+p#footer-contato{
+    font-size: 1.1em;
+    margin-left: 4vw;
+}
+p#footer-mapa-texto{
+    margin-right: 5vw;
+}
+       
+div#footer-superior{
+    margin: auto 20%;
+}
+    div#footer-s-direita{
+        width: 50%;
+        /*  */
+        float: right;
+    }
+    div#footer-s-esquerda{
+        text-align: right;
+        /*  */
+        width: 50%;
+        /*  */
+        /* display: inline; */
+        float: left;
+    }
+div#footer-inferior{
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-weight: bolder;
+    /*  */
+    padding-top: 17em;
+    /*  */
+}
+
+div#footer-inferior div{
+    background-image: linear-gradient(hsla(195, 46%, 5%, 0), hsla(195, 46%, 5%, 0.5));
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
