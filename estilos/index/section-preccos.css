@@ -109,18 +109,18 @@ div#preccos-imagem-1, div#preccos-imagem-2, div#preccos-imagem-3{         /* ima
 
 div#preccos-imagem-1{
     background-image: url(../../imagens/vinho.jpg);
-    background-size: 25vw 20vw;
+    background-size: 20vw 20vw;
     background-repeat: no-repeat;
 }
 div#preccos-imagem-2{
     background-image: url(../../imagens/costela.jpg);
-    background-size: 27vw 20vw;
+    background-size: 20vw 20vw;
     background-repeat: no-repeat;
-    background-position: -3vw;
+    background-position: 0;
 }
 div#preccos-imagem-3{
     background-image: url(../../imagens/buffet.jpg);
-    background-size: 25vw 20vw;
+    background-size: 20vw 20.01vw;
     background-repeat: no-repeat;
 }
 
